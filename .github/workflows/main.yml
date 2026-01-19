@@ -32,7 +32,6 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          #AIzaSyBxnCH5HgYGzioCwacbY2YRgOASOdCqS14
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           
       - name: Upload artifact
